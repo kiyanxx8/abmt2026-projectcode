@@ -2,7 +2,6 @@
     "permissions": {
         "deny": [
             "Read(**/*.gz)",
-            "Read(**/core/**)",
             "Read(**/examples/**)",
             "Read(**/server/**)",
             "Read(**/gis/**)",
