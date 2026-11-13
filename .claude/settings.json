@@ -1,0 +1,16 @@
+{
+    "permissions": {
+        "deny": [
+            "Read(**/*.gz)",
+            "Read(**/core/**)",
+            "Read(**/examples/**)",
+            "Read(**/server/**)",
+            "Read(**/gis/**)",
+            "Read(**/ch/**)",
+            "Read(**/ch_cmdp/**)",
+            "Read(**/mode_choice/**)",
+            "Read(**/resources/**)",
+            "Read(**/target/**)"
+        ]
+    }
+}
