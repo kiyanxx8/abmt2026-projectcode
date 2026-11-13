@@ -7,3 +7,5 @@ dependency-reduced-pom.xml
 *.iml
 *.idea
 simulation_output
+# written by ch_cmdp.RunSimulation into the working directory on every run
+run_config.xml

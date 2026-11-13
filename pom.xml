@@ -5,18 +5,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.eqasim</groupId>
 	<artifactId>eqasim</artifactId>
-	<version>2.0.0</version> <!-- x-release-please-version -->
+	<!-- ABMT 2026 fork: own version so it is never confused with the official eqasim 2.0.0 -->
+	<version>2.0.0-abmt.1</version> <!-- x-release-please-version -->
 	<packaging>pom</packaging>
 
+	<!-- ABMT 2026 fork: only the modules needed for the Zurich (ch_cmdp) scenario are built -->
 	<modules>
 		<module>core</module>
 		<module>switzerland</module>
-		<module>ile_de_france</module>
-		<module>sao_paulo</module>
-		<module>examples</module>
-		<module>san_francisco</module>
-		<module>los_angeles</module>
-		<module>server</module>
 	</modules>
 
 	<properties>
